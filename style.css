@@ -1,0 +1,95 @@
+body {
+	background-color: #2E294E;
+	text-align: center;
+	font-size: 20px;
+	font-family: Montserrat;
+	color:#82667F;
+
+}	
+
+h1
+{color:#F4F1BB;
+font-size: 80px;}
+
+h2
+{color:#8EB897;
+font-size: 40px;}
+
+a {
+	color: #415D43;
+	text-decoration: none;}
+
+a:hover {
+  opacity: 1;
+  text-decoration: none;
+  color: #F4F1BB;}
+
+#banner {
+	background-image: url("https://images.unsplash.com/photo-1542323789-2bff6a0d95df?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e84f7a611351db52f4efe9f66923643e&auto=format&fit=crop&w=1506&q=80"
+		);
+	background-size: contain;
+	padding: 10vh;}
+
+.logo {
+	font-size:30px;
+}
+
+.logo a:hover {
+  opacity: 1;
+  color:#F4F1BB;}
+
+#nav-bar {
+	display: flex;
+	align-items: right;
+	height: 70px;
+	padding: 50px;
+	margin-bottom: 20px;	}
+
+.nav-bar-links a {
+	font-size: 20px;
+	padding: 20px;}
+
+.nav-bar-links a:hover {
+  opacity: 1;
+  color:#F4F1BB;}
+
+.btn-outline-secondary {
+	text-decoration: none;}
+ 
+.card{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-top-width: 20px;
+	font-weight: lighter;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;}
+
+#footer {
+	padding: 50px;
+}
+
+.footer {
+  background: #F4F4F4;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100px;
+  padding: 50px 50px;
+  color: rgba(0,0,0,0.3);
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: black;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
+  color:#415D43;
+}
